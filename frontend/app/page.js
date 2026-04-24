@@ -243,7 +243,7 @@ function TokenList({ label, items, color }) {
             className="font-mono text-xs px-2.5 py-1 rounded border"
             style={{ color, borderColor: `${color}30`, background: `${color}10` }}
           >
-            {item === '' ? <span style={{ opacity: 0.6, fontStyle: 'italic' }}>(empty string)</span> : item}
+            {item === '' ? '""' : item}
           </span>
         ))}
       </div>
